@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+        <!-- Gündüz rejimi üçün rəng -->
+    <color name="day_mode">#FFFFFF</color> <!-- Ağ fon -->
+        <!-- Gecə rejimi üçün rəng -->
+    <color name="night_mode">#2b2937</color> <!-- Qaranlıq fon -->
+
+
+</resources>

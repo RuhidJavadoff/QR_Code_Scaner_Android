@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Header Fragment -->
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/headerFragment"
+        android:name="com.ruhidjavadoff.qrcodescaner.HeaderFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- Gələcəkdə digər UI hissələri bura əlavə olunacaq -->
+
+</FrameLayout>

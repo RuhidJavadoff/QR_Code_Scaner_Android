@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    android:gravity="center_vertical"
+    android:background="#2b2937">
+
+
+    <ImageView
+        android:id="@+id/logoImageView"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/qrlogob"
+        android:contentDescription="Logo"
+        android:layout_gravity="center_vertical"
+        android:layout_marginEnd="16dp"/>
+
+
+    <FrameLayout
+        android:id="@+id/themeToggleButton"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:background="@drawable/toggle_background"
+        android:layout_gravity="center"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_weight="1"
+        android:contentDescription="Theme toggle button"/>
+
+
+
+        <ImageView
+            android:id="@+id/sunIcon"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_sun"
+            app:tint="#FFFFFF"
+            android:layout_gravity="start|center_vertical"
+            android:layout_marginStart="4dp"/>
+
+        <ImageView
+            android:id="@+id/moonIcon"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_moon"
+            app:tint="#FFFFFF"
+            android:layout_gravity="end|center_vertical"
+            android:layout_marginEnd="4dp"/>
+
+        <ImageView
+            android:id="@+id/toggleIndicator"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_indicator"
+            android:layout_gravity="center"
+            app:tint="#FFFFFF" />
+    </FrameLayout>
+
+    <!-- Menu ikonu: Sağda -->
+    <ImageButton
+        android:id="@+id/menuButton"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/ic_menu"
+        app:tint="#FFFFFF"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:contentDescription="Menu"
+        android:layout_marginStart="16dp"
+        android:layout_gravity="center_vertical"/>
+
+</LinearLayout>
